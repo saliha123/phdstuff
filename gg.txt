@@ -1,0 +1,85 @@
+search()
+rm(list=ls())
+which( colnames(tdm.stack)=="ReportType")  - to get column number of a predictor ofknownn nameina df
+
+rm(list=setdiff(ls(), "Sonar")) removes everything except soant
+
+If there are more columns to keep than to delete: Suppose you want to delete 2 columns say col1, col2 from a data.frame DT; you can do the following: DT<-DT[,setdiff(names(DT),c("col1","col2"))]
+
+If there are more columns to delete than to keep: Suppose you want to keep only col1 and col2: DT<-DT[,c("col1","col2")]
+Booseted classification trees
+
+subset(mtcars, select = c("mpg", "cyl", "vs", "am"))
+                     mpg cyl vs am
+Mazda RX4           21.0   6  0  1
+Mazda RX4 Wag       21.0   6  0  1
+Datsun 710          22.8   4  1  1
+
+To delete multiple columns, but less than about 3-4, I'll use dat$x <- dat$y <- dat$z <- NULL.
+
+I use dat[c("x","y","z")] <- list(NULL) to remove columns. And usually divide it into two steps: generate names to remove to_remove <- c("x","y","z"), but it could be e.g. names(dat)[sapply(dat, function(x) all(is.na(x)))] then dat[to_remove] <- list(NULL). 
+
+rm(tmp)
+
+
+to check for an instlled packGE
+a<-installed.packages()
+packages<-a[,1] 
+is.element("ada", packages)
+
+
+
+data(iris)
+  Data  = iris[,-5]
+  Label = iris[,
+
+
+.libPaths()
+
+libraries
+
+
+binding columsn \
+
+bor_data <- cbind(bor_data, data3 [87])
+remove.packages(pkgs, lib)
+search() gives names of all packages
+
+
+5 attributes confirmed important: Average.Sentence.Length,
+Average.Word.Length, Group.References, Imagery, Modal.Verb.Ratio.
+
+Rename/name a column of matrix m
+
+colnames(m2)[1] <- "RepType"
+
+ grep("ReportType", colnames(tdm_newR)) to get indices of a columns
+
+colnames(X)[2] <- "superduper" to change column name
+
+
+select rows that meet a certain criteria in a data frame
+
+s1[grep("Confirmed", s1$decision, ignore.case=T),]
+
+ls(getNamespace("TCGAGBM"),all.names=TRUE)
+
+to get datatype pf columsn
+sapply(titanic.raw, class)
+
+ modelLookup("nb")
+ 
+ 
+ eliminate rows with less than 5 non zero entries
+ 
+ 
+ tab[-which(apply(tab, 1, function(x)sum(x!="0"))<=5),]
+ 
+ 
+ to remove punctuatin nl characters
+ 
+ gsub('\`', '', bor_coh2[1]))
+ 
+ ## to sort df without losing row info
+ 
+ w2 <-weights[order(-weights$attr_importance), , drop = FALSE]

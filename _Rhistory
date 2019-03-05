@@ -1,0 +1,26 @@
+generateTDM <- function(subj, path) {
+q()
+'q()'
+getwd()
+setwd("C/exercises")
+setwd("C:/exercises")
+lib <-c("tm","plyr", "class")
+lapply(libs, require, character.only = TRUE)
+lib <-c("tm","plyr", "class")
+lapply(lib, require, character.only = TRUE)
+options(stringAsFactors = FALSE)
+submat <-c("atheism", "space")
+pathname <- "C:/exercises/news1"
+lapply ??
+??apply
+??apply
+submat
+pathname
+s.dir <- sprintf("%s/%s", pathname, submat)
+s.dir
+s.cor <- Corpus(DirSource(directory = s.dir, encoding = "ANSI"))
+s.cor
+s.cor.cl <-cleanCorpus(s.cor)
+cleanCorpus.R
+load cleanCorpus.r
+q()
